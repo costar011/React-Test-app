@@ -15,10 +15,11 @@ body {
   justify-content: center;
 }
 
-.App .App__main {
+.App .App__main .App__main__box {
   width: 100%;
   height: 60vh;
   background-color: skyblue;
+  color: black;
 
   display: flex;
   flex-direction: row;
@@ -30,6 +31,7 @@ body {
   width: 100%;
   height: 20vh;
   background-color: beige;
+  color: black;
 
   display: flex;
   flex-direction: row;
