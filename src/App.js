@@ -4,6 +4,11 @@ import "react-daypicker/lib/DayPicker.css";
 import DayPicker from "react-daypicker";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
   render() {
     return (
       <div className="App">
@@ -12,10 +17,16 @@ class App extends React.Component {
         </div>
         <div className="App__main">
           <input className="App__main__text" type="text"></input>
-          <button className="App__main__btn">OK</button>
+          <button className="App__main__btn" onClick={this._btnHandler}>
+            OK
+          </button>
         </div>
       </div>
     );
   }
+
+  _btnHandler = () => {
+    alert("Delete Text?");
+  };
 }
 export default App;
