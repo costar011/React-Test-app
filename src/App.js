@@ -16,10 +16,20 @@ class App extends React.Component {
           <DayPicker onDayClick={(day) => this.setState({ day })} />
         </div>
         <div className="App__main">
-          <input className="App__main__text" type="text"></input>
-          <button className="App__main__btn" onClick={this._btnHandler}>
-            OK
-          </button>
+          <div className="App__main__text">
+            <input className="App__main__text1" type="text"></input>
+
+            <input className="App__main__text1" type="text"></input>
+
+            <div className="App__main__btn">
+              <button className="App__main__btn" onClick={this._btnHandler}>
+                OK
+              </button>
+              <button className="App__main__btn" onClick={this._btnHandler}>
+                OK
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     );

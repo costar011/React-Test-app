@@ -27,6 +27,11 @@ body {
 }
 
 .App .App__main__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .App__main__text1 {
   width: 650px;
   height: 25px;
   margin-right: 10px;
@@ -39,6 +44,26 @@ body {
   background: #e5e5e5;
   color: #0b0b0b;
   font-size: 15px;
+}
+
+.App .App__main__text2 {
+  width: 650px;
+  height: 25px;
+  margin-right: 10px;
+
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: 3px 5px 5px rgba(200, 200, 200);
+  border-radius: 4px;
+  background: #e5e5e5;
+  color: #0b0b0b;
+  font-size: 15px;
+}
+
+.App .App__main__btn {
+  display: flex;
+  flex-direction: row;
 }
 
 .App .App__main .App__main__btn {
